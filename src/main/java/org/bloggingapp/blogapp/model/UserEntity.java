@@ -6,8 +6,8 @@ import lombok.*;
 @Entity(name = "users")
 @Getter
 @Setter
-@NoArgsConstructor(access = AccessLevel.PROTECTED) // Required for JPA
-@AllArgsConstructor  // Required for @Builder to work properly
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
+@AllArgsConstructor
 @ToString
 @Builder
 public class UserEntity {
